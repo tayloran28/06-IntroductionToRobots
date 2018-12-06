@@ -38,7 +38,7 @@ def go_two_seconds():
     right_motor = rb.LargeMotor(rb.Plug("C"))  # Constructs Motor for right wheel
     right_motor.start()
     time.sleep(6)
-    right_motor.brake()
+    right_motor.brake() 
 
 
 def run_test_go_inches():
